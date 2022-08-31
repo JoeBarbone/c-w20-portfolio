@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Portfolio from "./components/Portfolio";
@@ -15,11 +16,11 @@ function App() {
 
     <div>
 
-      <Nav />
-
       <main>
               
         <Router>
+
+          <Nav />  
           <Routes>
               
                 <Route path="/" element={<About />} />
@@ -29,11 +30,11 @@ function App() {
                   
           </Routes>
           <Footer></Footer>
+        
         </Router>
         
       </main>
 
-        
     </div>
 
   );

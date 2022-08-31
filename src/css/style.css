@@ -7,18 +7,22 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: arial;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif
     /* background-color: red; */
 }
 
-.link-active {
 
-    color: whilte;
+nav a.active {
+
+    color: white;
 
 }
 
-.link-non-active {
-    color: red;
+.my-title {
+    color: var(--text-color);
+    letter-spacing: .50rem;
+    color: white;
+    
 }
 
 
@@ -31,29 +35,12 @@
 
 }
 
-.about img {
+/* .about img {
 
     width: 200px;
 
-}
-
-
-/* .portfolio {
-
-    width: 100%;
-    background-color: var(--text-color);
-    padding: 50px;
-
 } */
 
-
-/* .contact {
-
-    width: 100%;
-    background-color: var(--text-color);
-    padding: 50px;
-
-} */
 
 .contact input {
 
@@ -62,6 +49,7 @@
     padding: 5px;
 
 }
+
 
 .contact textarea {
     
@@ -92,22 +80,10 @@ header h1, a {
     /* left: -25px; */
 }
 
-.student-name {
-    display: flex;
-    align-items: center;
-    border: 5px solid var(--text-color);
-    border-radius: 15px;
+.about-me-text {
+    font-size: 1.25rem;
 }
 
-.student-name a {
-    text-decoration: none;
-}
-
-.student-name img {
-    height: 200px;
-    border-radius: 9px 0 0 15px;
-    z-index: 998;
-}
 
 header ul li {
     list-style: none;
@@ -129,85 +105,31 @@ h1 a:hover {
     color: var(--secondary-color);
 }
 
-/* hero image section styling */
-/* .hero {
-    height: 400px;
-    background-image: url("../images/hero-img.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} */
 
-/* .hero h1 {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    padding: 10px 20px;
-} */
 
-/* section style */
-/* section {
-    display: flex;
-    margin: 50px;
-    border: 10px solid blue;
-} */
-
-/* article style */
-/* .article-title {
-    text-align: right;
-    font-size: 45px;
-    flex: 1 30%;
-    padding-right: 20px;
-    border-right: 5px solid var(--secondary-color);
-    color: var(--secondary-color)
-} */
-
-/* .article-text {
-    padding: 0 20px;
-    font-size: 22px;
-    flex: 1 70%;
-    color: var(--secondary-color)
-} */
-
-/* work section styling */
-/* .feature-site {
-    border: 10px solid var(--primary-color);
-    position: relative;
-} */
-
-/* .feature-site-label {
-    position: absolute;
-    bottom: 20px;
-    left: 0px;
-    background-color: var(--primary-color);
-    color: var(--text-color);
-    padding: 10px 20px;
-} */
-
-/* .site-label-primary {
+.site-label-primary {
     font-size: 1.8em;
-} */
+    margin: 0;
+    padding: 0;
+}
+
 
 .site-label-secondary {
     font-size: 1.2em;
+    margin: 0;
+    padding: 0;
 }
 
 .work-projects {
     padding: 0 20px;
-    flex: 1 70%;
+    /* flex: 1 70%; */
 }
 
 .site-img {
     width: 100%;
-    /* opacity: 50%; */
+    opacity: 75%;
 }
 
-.site-img:hover {
-    opacity: 10%;
-}
 
 .work-secondary-sites {
     display: flex;
@@ -225,35 +147,14 @@ h1 a:hover {
 
 .work-site-label {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 0px;
+    width: 75%;
     background-color: var(--primary-color);
     color: var(--text-color);
     padding: 10px 20px;
+    opacity: 85%;
 }
-
-/* contact me styling */
-.contact-me {
-    display: flex;
-    margin: 50px 0;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contact-me a {
-    text-decoration: none;
-    color: var(--secondary-color)
-}
-
-.contact-me a:hover {
-    padding-bottom: 10px;
-    border-bottom: 2px solid var(--primary-color);
-}
-
-.contact-me p {
-    color: var(--secondary-color)
-}
-
 
 footer {
     margin: 10px 0;
@@ -275,6 +176,8 @@ button {
     background-color: var(--primary-color);
     color: var(--text-color);
 }
+
+
 
 
 /* media screen sections */
@@ -347,19 +250,7 @@ button {
         text-align: center;
     }
 
-    /* .student-name {
-        flex-wrap: wrap;
-        border: none;
-    } */
-
-    /* .student-name img {
-        margin: 20px 0 0 20px;
-        border-radius: 15px;
-    } */
-
-    /* .hero h1 {
-        font-size: 1em;
-    } */
+    
 
     /* section style */
     section {
@@ -368,15 +259,7 @@ button {
         margin: 0 0;
     }
 
-    /* article style */
-    /* .article-title {
-        text-align: center;
-        font-size: 48px;
-        margin-bottom: 20px;
-        border-right: none;
-        border-bottom: 5px solid var(--secondary-color);
-    } */
-
+    
     /* contact me styling */
     .contact-me {
         display: block;
@@ -401,10 +284,7 @@ button {
     .work-site-label {
         position: absolute;
         bottom: 0px;
-        /* left: 0px; */
-        /* background-color: var(--primary-color); */
-        /* color: var(--text-color); */
-        font-size: .75rem;
+        font-size: .5rem;
         padding: 10px 10px;
     }
 

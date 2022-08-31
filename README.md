@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Challenge Week #20 - React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## User Story
+AS AN employer looking for candidates with experience building single-page applications  
+I WANT to view a potential employee's deployed React portfolio of work samples  
+SO THAT I can assess whether they're a good candidate for an open position  
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Acceptance Criteria
+GIVEN a single-page application portfolio for a web developer  
+WHEN I load the portfolio  
+THEN I am presented with a page containing a header, a section for content, and a footer  
+WHEN I view the header  
+THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio  
+WHEN I view the navigation titles  
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted  
+WHEN I click on a navigation title  
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted  
+WHEN I load the portfolio the first time  
+THEN the About Me title and section are selected by default  
+WHEN I am presented with the About Me section  
+THEN I see a recent photo or avatar of the developer and a short bio about them  
+WHEN I am presented with the Portfolio section  
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository  
+WHEN I am presented with the Contact section  
+THEN I see a contact form with fields for a name, an email address, and a message  
+WHEN I move my cursor out of one of the form fields without entering text  
+THEN I receive a notification that this field is required  
+WHEN I enter text into the email address field  
+THEN I receive a notification if I have entered an invalid email address  
+WHEN I am presented with the Resume section  
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies  
+WHEN I view the footer  
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Desktop - About
+![about](/src/images/screenshot-desktop-about.jpg)
 
-### `npm test`
+Desktop - Portfolio
+![portfolio](/src/images/screenshot-desktop-portfolio.jpg)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Desktop - Contact
+![contact](/src/images/screenshot-desktop-contact.jpg)
 
-### `npm run build`
+Desktop - Resume
+![resume](/src/images/screenshot-desktop-resume.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Mobile - About  
+![about](/src/images/screenshot-mobile-about.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Mobile - Portfolio  
+![portfolio](/src/images/screenshot-mobile-portfolio.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Mobile - Contact  
+![contact](/src/images/screenshot-mobile-contact.jpg)
 
-### `npm run eject`
+Mobile - Resume  
+![resume](/src/images/screenshot-mobile-resume.jpg)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Live Site
+[Joseph Barbone - Web Developer Live Site](https://JoeBarbone.github.io/c-w20-portfolio)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Summary/Languages
+![html 5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![css 3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![react](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-## Learn More
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white) ![node js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white) ![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white) 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+Original concept and challenge requirements provided by 2U Educational Services  
+Programming by Joseph Barbone, with assistance from Gary (TA)

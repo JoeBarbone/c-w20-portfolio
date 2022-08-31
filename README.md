@@ -65,7 +65,7 @@ Mobile - Resume
 ---
 
 ## Live Site
-[Joseph Barbone - Web Developer Live Site](http://JoeBarbone.github.io/portfolio)
+[Joseph Barbone - Web Developer Live Site](http://JoeBarbone.github.io/c-w20-portfolio)
 
 ---
 

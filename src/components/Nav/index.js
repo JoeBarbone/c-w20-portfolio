@@ -10,7 +10,7 @@ function Nav() {
         <header className="d-flex justify-content-between">
 
             <div>
-                <h1 className="d-flex align-items-center"><a href="/">Joseph Barbone</a></h1>
+                <h1 className="d-flex align-items-center"><NavLink to="/">Joseph Barbone</NavLink></h1>
                 <h6 className="my-title">Web Developer</h6>
             </div>
 

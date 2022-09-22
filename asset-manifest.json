@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/c-w20-portfolio/static/css/main.72b493ec.css",
-    "main.js": "/c-w20-portfolio/static/js/main.96106f84.js",
-    "static/js/787.f527c8ba.chunk.js": "/c-w20-portfolio/static/js/787.f527c8ba.chunk.js",
+    "main.js": "/c-w20-portfolio/static/js/main.f93db7a7.js",
+    "static/js/787.1ed0c42c.chunk.js": "/c-w20-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/joe_small.png": "/c-w20-portfolio/static/media/joe_small.f4bf1d1331cf31023d34.png",
     "static/media/interplast-south.jpg": "/c-w20-portfolio/static/media/interplast-south.7cdebf836173974dd7f7.jpg",
     "static/media/weather-app.jpg": "/c-w20-portfolio/static/media/weather-app.d14a73fb203da6e05efd.jpg",
+    "static/media/screenshot-desktop-mainmenu.jpg": "/c-w20-portfolio/static/media/screenshot-desktop-mainmenu.001e5e89a361e265f001.jpg",
     "static/media/taylor-nicole-creates.jpg": "/c-w20-portfolio/static/media/taylor-nicole-creates.4de16ad8570ff9a04bb1.jpg",
     "static/media/codequiz.jpg": "/c-w20-portfolio/static/media/codequiz.2c1d67c17619aa5d60c7.jpg",
     "static/media/passgen.jpg": "/c-w20-portfolio/static/media/passgen.09aea7bfd185a282f62f.jpg",
     "static/media/joe-barbone.jpg": "/c-w20-portfolio/static/media/joe-barbone.1c4943ba2893070fb980.jpg",
     "index.html": "/c-w20-portfolio/index.html",
     "main.72b493ec.css.map": "/c-w20-portfolio/static/css/main.72b493ec.css.map",
-    "main.96106f84.js.map": "/c-w20-portfolio/static/js/main.96106f84.js.map",
-    "787.f527c8ba.chunk.js.map": "/c-w20-portfolio/static/js/787.f527c8ba.chunk.js.map"
+    "main.f93db7a7.js.map": "/c-w20-portfolio/static/js/main.f93db7a7.js.map",
+    "787.1ed0c42c.chunk.js.map": "/c-w20-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72b493ec.css",
-    "static/js/main.96106f84.js"
+    "static/js/main.f93db7a7.js"
   ]
 }

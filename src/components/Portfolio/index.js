@@ -69,7 +69,7 @@ function Portfolio() {
                     </section>
 
                     <section className="work-secondary-site">
-                        <a href="https://joebarbone.github.io/c-w20-portfolio/" target="_blank" rel="noopener noreferrer"><img className="site-img" src={require("../../images/screenshot-desktop-mainmenu.jpg")} alt="mywallet.com screen capture" /></a>
+                        <a href="https://mighty-thicket-71293.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="site-img" src={require("../../images/screenshot-desktop-mainmenu.jpg")} alt="mywallet.com screen capture" /></a>
                         <div className="work-site-label">
                             <p className="site-label-primary">My Wallet</p>
                             <p className="site-label-secondary">React/Node/MongoDB/Apollo</p>
